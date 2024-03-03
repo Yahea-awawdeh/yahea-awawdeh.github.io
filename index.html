@@ -1,0 +1,343 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: white;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.container .left_Side,
+.container .right_Side {
+  position: relative;
+  padding: 40px;
+}
+
+.container .left_Side {
+  background: #003147;
+}
+
+.container .right_Side {
+  background: #fff;
+}
+
+.ProfileText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.ProfileText .img-Box {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.ProfileText .img-Box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ProfileText h2 {
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+
+.ProfileText h2 span {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+a:hover {
+  color: white;
+}
+
+a:link {
+  color: rgb(249, 243, 243);
+}
+
+.contentInfo {
+  padding-top: 40px;
+}
+
+.title {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.contentInfo ul {
+  position: relative;
+}
+
+.contentInfo ul li {
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.contentInfo ul li .icon {
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: #03a9f4;
+}
+
+.contentInfo ul li span {
+  color: #fff;
+  font-weight: 300;
+}
+
+.contentInfo.Educations li {
+  margin-bottom: 0px;
+}
+
+.contentInfo.Educations h5 {
+  color: #03a9f4;
+  font-weight: 500;
+}
+
+.contentInfo.Educations h4 {
+  color: #fff;
+}
+
+.contentInfo.Language .percent,
+.contentInfo.Programming .percent {
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background: #081921;
+  display: block;
+  margin-top: 5px;
+}
+
+.contentInfo.Language .percent div,
+.contentInfo.Programming .percent div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #03a9f4;
+}
+
+.container .right_Side {
+  position: relative;
+  background: #fff;
+  padding: 40px;
+}
+
+.about {
+  margin-bottom: 50px;
+}
+
+.about:last-child {
+  margin-bottom: 0;
+}
+
+.title2 {
+  color: #003147;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #333;
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.home-button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #003147;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #001c32;
+}
+
+            
+        </style>
+    </head>
+    <body>
+    <div class="container">
+      <div class =left_Side>
+        <div class="ProfileText">
+            <div class="img-Box">
+                <img src="images/yahea.jpg" alt="My image">
+            </div>
+            <h2>Yahea Awawdeh <br><span>Cyber Security</span></h2>
+            <a href="index.html" class="home-button">
+              <i class="fa fa-home"></i> Home</a>
+        </div>
+        <div class="contentInfo">
+            <h3 class="title">content Info</h3>
+            <ul>
+                <li>
+                    <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                    <span class="text">0799034678</span>
+                    
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                    <span class="text"><a href="mailto:yaheaawawdeh90@gamil.com">yahea_AW@gamil.com</a></span>
+                    
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-map" aria-hidden="true"></i>
+                    </span>
+                    
+                </li>
+                <li>
+                 <a href="contact.html" class="home-button">
+              <i class="fa fa-envelope"></i> Contact
+              </a>
+            </ul>
+        </div>
+        <div class="contentInfo Educations">
+            <h3 class="title">Educations</h3>
+            <ul>
+               <li>
+                <h5>2020 - 2021</h5>
+                <h4>University student in JUST</h4>
+                <h4>at the College of Computer and Information Technology</h4>
+                <h4>in cyber Security</h4>
+
+
+                </li>
+               
+            </ul>
+        </div>
+        <div class="contentInfo Language">
+            <h3 class="title">Language</h3>
+            <ul>
+               <li>
+                <span class="text">Arabic</span>
+                <span class="percent">
+                <div style="width: 90%;"></div>
+            </span>
+               </li>
+               <li>
+                <span class="text">English</span>
+                <span class="percent">
+                    <div style="width: 30%;"></div>
+                </span>
+               </li>
+            </ul>
+        </div>
+        <div class="contentInfo Programming">
+            <h3 class="title">Programming</h3>
+            <ul>
+               <li>
+                <span class="text">c++</span>
+                <span class="percent">
+                <div style="width: 90%;"></div>
+            </span>
+               </li>
+               <li>
+                <span class="text">Python</span>
+                <span class="percent">
+                    <div style="width: 30%;"></div>
+                </span>
+               </li>
+               <li>
+                <span class="text">html</span>
+                <span class="percent">
+                    <div style="width: 80%;"></div>
+                </span>
+               </li>
+               <li>
+                <span class="text">css</span>
+                <span class="percent">
+                    <div style="width: 50%;"></div>
+                </span>
+               </li>
+               <li>
+               <span class="text">JS</span>
+                <span class="percent">
+                    <div style="width: 40%;"></div>
+                </span>
+               </li>
+               
+            </ul>
+        </div>
+      </div>
+      <div class =right_Side>
+        <div class="about">
+            <h2 class="title2">Education
+            </h2>
+            <p>
+              Jordan University of Science and Technology, Irbid,Jordan
+            </p>
+            <p>Expected Graduation: June, 2025</p>
+            <p>Current GPA: 3.5/4.0</p>
+            <p>Relevant Coursework:<br>
+              1-CAP from secops Group
+            </p>
+            <h2 class="title2">Cybersecurity Achievements</h2>
+            <p>2022-Now JWolves team</p>
+            <p>3th CTFJO finally</p>
+            <p>3rd Anonymous CTF</p>
+            <p>4th Cyber Warriors CTF V1</p>
+            <p>4th CTFJO Qualification</p>
+            <p>3th green circle (JOCTF)</p>
+            <p>19th BSIDES.SHELLMATES CTF</p>
+            <h2 class="title2">Skiles</h2>
+            <p style="font-weight:bold;">-Technical Skills:</p>
+            <p>penetration testing</p>
+            <p>Bug Bounty</p>
+            <p style="font-weight:bold;">-Soft Skills:</p>
+            <p>Team work</p>
+            <p>problem-solving</p>
+            <p>problem-solving</p>
+        </div>
+      </div>
+    </div> 
+    </body>
+</html>
