@@ -3,229 +3,10 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title></title>
+        <link rel="stylesheet" href="style/index.css">
+        <title>About Me</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <style>
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-  background: lightblue;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
-
-.container {
-  position: relative;
-  width: 100%;
-  max-width: 1000px;
-  min-height: 1000px;
-  background: white;
-  margin: 50px;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
-}
-
-.container .left_Side,
-.container .right_Side {
-  position: relative;
-  padding: 40px;
-}
-
-.container .left_Side {
-  background: #003147;
-}
-
-.container .right_Side {
-  background: #fff;
-}
-
-.ProfileText {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 20px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.ProfileText .img-Box {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  overflow: hidden;
-  position: relative;
-}
-
-.ProfileText .img-Box img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.ProfileText h2 {
-  color: #fff;
-  font-size: 1.5em;
-  margin-top: 20px;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 600;
-  line-height: 1.4em;
-}
-
-.ProfileText h2 span {
-  font-size: 0.8em;
-  font-weight: 300;
-}
-
-a:hover {
-  color: white;
-}
-
-a:link {
-  color: rgb(249, 243, 243);
-}
-
-.contentInfo {
-  padding-top: 40px;
-}
-
-.title {
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: 1px;
-  margin-bottom: 20px;
-}
-
-.contentInfo ul {
-  position: relative;
-}
-
-.contentInfo ul li {
-  position: relative;
-  list-style: none;
-  margin: 10px 0;
-  cursor: pointer;
-}
-
-.contentInfo ul li .icon {
-  display: inline-block;
-  width: 30px;
-  font-size: 18px;
-  color: #03a9f4;
-}
-
-.contentInfo ul li span {
-  color: #fff;
-  font-weight: 300;
-}
-
-.contentInfo.Educations li {
-  margin-bottom: 0px;
-}
-
-.contentInfo.Educations h5 {
-  color: #03a9f4;
-  font-weight: 500;
-}
-
-.contentInfo.Educations h4 {
-  color: #fff;
-}
-
-.contentInfo.Language .percent,
-.contentInfo.Programming .percent {
-  position: relative;
-  width: 100%;
-  height: 6px;
-  background: #081921;
-  display: block;
-  margin-top: 5px;
-}
-
-.contentInfo.Language .percent div,
-.contentInfo.Programming .percent div {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  background: #03a9f4;
-}
-
-.container .right_Side {
-  position: relative;
-  background: #fff;
-  padding: 40px;
-}
-
-.about {
-  margin-bottom: 50px;
-}
-
-.about:last-child {
-  margin-bottom: 0;
-}
-
-.title2 {
-  color: #003147;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: 10px;
-}
-
-p {
-  color: #333;
-  font-weight: 600;
-  margin-top: 10px;
-  font-size: 20px;
-}
-.home-button {
-  display: inline-block;
-  text-decoration: none;
-  background-color: #003147;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-weight: bold;
-  margin-top: 20px;
-  transition: background-color 0.3s ease;
-}
-
-.home-button:hover {
-  background-color: #001c32;
-}
-  table {
-    width: 80%;
-    margin: 20px auto;
-    border-collapse: collapse;
-  }
-
-  th, td {
-    padding: 10px;
-    border: 1px solid #ddd;
-    text-align: left;
-  }
-
-  th {
-    background-color: #f2f2f2;
-  }
-
-  a {
-    color: #000080; /* Dark blue color */
-    text-decoration: none; /* Remove underline */
-  }
-
-  a:hover {
-    text-decoration: underline; /* Underline on hover */
-  }
-        </style>
+        
     </head>
     <body>
     <div class="container">
@@ -334,6 +115,7 @@ p {
         <div class="about">
             <h2 class="title2">Education
             </h2>
+            <br>
             <p>
               Jordan University of Science and Technology, Irbid,Jordan
             </p>
@@ -342,7 +124,9 @@ p {
             <p>Relevant Coursework:<br>
               1-CAP from secops Group
             </p>
+            <br>
             <h2 class="title2">Cybersecurity Achievements</h2>
+            <br>
             <p>2022-Now JWolves team</p>
             <p>3th CTFJO finally</p>
             <p>3rd Anonymous CTF</p>
@@ -350,46 +134,24 @@ p {
             <p>4th CTFJO Qualification</p>
             <p>3th green circle (JOCTF)</p>
             <p>19th BSIDES.SHELLMATES CTF</p>
+            <br>
             <h2 class="title2">Skiles</h2>
+            <br>
             <p style="font-weight:bold;">-Technical Skills:</p>
-            <p>penetration testing</p>
-            <p>Bug Bounty</p>
+            <p>Web Applications penetration testing.</p>
+            <p>API security testing.</p>
+            <p>Security testing of pre-production and production applications.</p>
+            <p>Black & White Box testing.</p>
+            <p>Vulnerability assessment.</p>
             <p style="font-weight:bold;">-Soft Skills:</p>
             <p>Team work</p>
             <p>problem-solving</p>
             <p>problem-solving</p>
             <h2>Programming Languages Learning Paths</h2>
-
-  <table>
-    <tr>
-      <th>Programming Language</th>
-      <th>Learning Path</th>
-    </tr>
-    <tr>
-      <td>C++</td>
-      <td><a href="https://www.learn-c.org/" target="_blank" style="color:rgb(14, 2, 62);">C++ Learning Path</a></td>
-    </tr>
-    <tr>
-      <td>Python</td>
-      <td><a href="https://docs.python.org/3/tutorial/" target="_blank" style="color:rgb(14, 2, 62);">Python Learning Path</a></td>
-    </tr>
-    <tr>
-      <td>JavaScript (JS)</td>
-      <td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank" style="color:rgb(14, 2, 62);">JavaScript Learning Path</a></td>
-    </tr>
-    <tr>
-      <td>PHP</td>
-      <td><a href="https://www.php.net/manual/en/intro-whatis.php" target="_blank" style="color:rgb(14, 2, 62);">PHP Learning Path</a></td>
-    </tr>
-    <tr>
-      <td>HTML</td>
-      <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" style="color:rgb(14, 2, 62);">HTML Learning Path</a></td>
-    </tr>
-    <tr>
-      <td>CSS</td>
-      <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" style="color:rgb(14, 2, 62);">CSS Learning Path</a></td>
-    </tr>
-  </table>
+            <br> 
+            <h2 class="title2">If You Want to learn programing language vist this page:</h2>
+            <br>
+            <a href="Prog.html" style="color:black"><b>Programing language</b></a>
         </div>
       </div>
     </div> 
